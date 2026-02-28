@@ -1,1 +1,124 @@
 node_modules
+
+# =================================================
+# 🔐 SECRETS & ENVIRONMENT FILES (CRITICAL)
+# =================================================
+.env
+.env.*local
+.env.* 
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+**/.env
+**/.env.*
+**/.env.*local
+
+# =================================================
+# 📦 DEPENDENCIES
+# =================================================
+node_modules/
+vendor/
+.pnpm-store/
+.yarn/
+.yarn-cache/
+.yarn-install-state.gz
+bower_components/
+
+# =================================================
+# 🏗 BUILD OUTPUTS
+# =================================================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.cache/
+.parcel-cache/
+coverage/
+tmp/
+temp/
+
+# =================================================
+# 📱 MOBILE (ANDROID / iOS / FLUTTER / RN)
+# =================================================
+android/.gradle/
+android/build/
+android/app/build/
+ios/Pods/
+ios/build/
+ios/DerivedData/
+*.keystore
+*.jks
+*.pem
+
+# =================================================
+# 🐍 PYTHON / DJANGO / FASTAPI
+# =================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+
+# =================================================
+# ☕ JAVA / SPRING
+# =================================================
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+
+# =================================================
+# 🐘 PHP / LARAVEL
+# =================================================
+vendor/
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+bootstrap/cache/
+
+# =================================================
+# 🐳 DOCKER / DEVOPS
+# =================================================
+.docker/
+docker-data/
+*.pid
+
+# =================================================
+# 🧠 IDE / EDITORS
+# =================================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.log
+
+# =================================================
+# 💻 OS FILES
+# =================================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =================================================
+# 🗂 MISC
+# =================================================
+*.tgz
+*.gz
+*.zip
+*.tar
+*.rar
+.cache-loader/
+.history/
